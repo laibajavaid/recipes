@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* background of the webpage */
+
+body {
+    background-image: linear-gradient(to right, #d7e3fc , #eac4d5, #C1E1C1, #f6ac69);
+}
+
+h1,
+p {
+    color: black;
+    text-align: center;
+}
+
+/* animation on heading text */
+@keyframes intro {
+    100% {bottom: 0};
+    from {opacity: 0}
+    to {opacity: 1};
+}
+
+@keyframes pictures-and-paragraph {
+    from {opacity: 0}
+    to {opacity: 1};
+}
+
+h1 {
+    position: relative;
+    font-family: Cambria;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 350%;
+    bottom: -150px;
+    opacity: 0;
+    animation: intro 5s forwards;
+}
+
+.first-paragraph, .winter-recipe, .spring-recipe, .summer-recipe, .fall-recipe  {
+    font-family: Cochin;
+    font-size: 150%;
+    animation: pictures-and-paragraph 10s;
+}
+
+.content {
+    display: flex;
+  }
+
+  .winter, .spring, .summer, .fall {
+    flex: 33.33%;
+    padding: 5px;
+    object-fit: cover;
+    animation: pictures-and-paragraph 10s;
+  }
+
+  .winter:hover, .spring:hover, .summer:hover, .fall:hover {
+    transform: scale(0.95);
+  }
+
+  .winter-image:hover, .spring-image:hover, .summer-image:hover, .fall-image:hover {
+    box-shadow: 0 0 3px 5px rgba(0, 140, 186, 0.5);
+  }
