@@ -1,0 +1,79 @@
+/* winterStyles.css */
+
+body {
+    background-color: #d7e3fc;
+}
+
+h1, h2, h3, p, a{
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    font-family: Cambria;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 350%;
+}
+
+h3 {
+    font-family: Cochin;
+    font-size: 200%;
+}
+
+h2 {
+    font-style: italic;
+    font-family: Georgia;
+    align-items: center;
+}
+
+a {
+    font-family: Cochin;
+    font-size: 150%;
+    width: 100%;
+}
+
+.winter-content-first-half, .winter-content-first-half, .winter-content-last {
+    gap:30px;
+    display: flex;
+}
+
+.next-season-recipe{
+    gap:50px;
+    display: flex;
+}
+
+.winter-recipe{
+    font-family: Cochin;
+    font-size: 150%;
+}
+
+.winter-ingredients, .winter-prep, .winter-content-last, .next-recipe {
+    border-radius: 10px;
+    background-color: #bacffa;
+    flex-grow: 2;
+}
+
+.ingredients-list, .prep-list {
+    font-family: Cochin;
+    font-size: 150%;
+}
+
+.winter-content-last,  .next-recipe {
+    width: 45%;
+    text-align: center;
+    float: left; /* sets last two divs next to eachother */
+  }
+
+  .next-recipe {
+    float: right; /* sets last two divs next to eachother */
+  }
+
+img {
+    border-radius: 10px; /* make the image border of the image rounded */
+}
+
+a {  
+    color: black;
+}

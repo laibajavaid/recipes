@@ -1,13 +1,11 @@
 /* styles.css */
 
 /* background of the webpage */
-
 body {
     background-image: linear-gradient(to right, #d7e3fc , #eac4d5, #C1E1C1, #f6ac69);
 }
 
-h1,
-p {
+h1, p {
     color: black;
     text-align: center;
 }
@@ -56,6 +54,18 @@ h1 {
     transform: scale(0.95);
   }
 
-  .winter-image:hover, .spring-image:hover, .summer-image:hover, .fall-image:hover {
-    box-shadow: 0 0 3px 5px rgba(0, 140, 186, 0.5);
+  .winter-image:hover {
+    box-shadow: 0 0 3px 5px #8aa4de;
+  }
+
+  .spring-image:hover {
+    box-shadow: 0 0 3px 5px #e98db7;
+  }
+
+  .summer-image:hover {
+    box-shadow: 0 0 3px 5px #5e8e5e;
+  }
+
+  .fall-image:hover {
+    box-shadow: 0 0 3px 5px #fb9b42;
   }
