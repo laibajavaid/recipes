@@ -14,4 +14,4 @@ CSS
 
 ## Links
 
-[View the webpage here!](https://laibajavaid.github.io/Recipes)
+[View the webpage here](https://htmlpreview.github.io/?https://github.com/laibajavaid/Recipes/blob/main/index.html)
